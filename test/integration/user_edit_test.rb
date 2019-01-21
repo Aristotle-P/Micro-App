@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class UserEditTest < ActionDispatch::IntegrationTest
-=begin  
+  
   def setup
     @user = users(:michael)
   end
@@ -52,6 +52,5 @@ class UserEditTest < ActionDispatch::IntegrationTest
     assert_equal name,  @user.name
     assert_equal email, @user.email
     assert session[:forwarding_url].nil?
-  end  
-=end  
+  end   
 end

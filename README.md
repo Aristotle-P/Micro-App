@@ -1,9 +1,8 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Micro-Blogging Application
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+A fully-fledged micro-blogging application similar to Twitter with login
+functionality, account activation through a mailer, authentication,
+remember me/stay signed in functions, and password resets through mailer
 
 ## License
 
@@ -38,4 +37,4 @@ $ rails server
 ```
 
 For more information, see the
-[*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+[_Ruby on Rails Tutorial_ book](http://www.railstutorial.org/book).
