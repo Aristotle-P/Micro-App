@@ -7,14 +7,15 @@ ruby '2.6.3'
 gem 'rails', '~> 5.2.1'
 gem 'bcrypt'
 gem 'faker'
+gem "nokogiri", ">= 1.10.4"
 gem 'carrierwave'
-gem 'mini_magick'
+gem "mini_magick", ">= 4.9.4"
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
-gem 'bootstrap-sass'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
